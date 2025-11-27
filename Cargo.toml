@@ -1,7 +1,12 @@
 [package]
 name = "iana-services"
+description = "Rust bindings for IANA services database"
 version = "0.1.0"
 edition = "2024"
+authors = ["cilki"]
+repository = "https://github.com/fossable/iana-services/"
+readme = "README.md"
+license = "Unlicense"
 
 [dependencies]
 phf = { version = "0.13.1", default-features = false, optional = true }
